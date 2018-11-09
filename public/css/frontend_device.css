@@ -1,0 +1,294 @@
+@media (max-width: 768px) {
+	.screen_large {
+		display: none;
+	}
+	.screen_device {
+		display: block;
+	}
+	footer {
+		padding: 20px 20px 20px 20px;
+	}
+
+	.front_block.top {
+		font-size: 28pt;
+	}
+	div.home_productlist {
+		width: 100%;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	div.home_productlist div {
+		width: 150px;
+		height: 150px;
+		margin: 10px;
+		background-size: cover;
+		background-position: center;
+		display: inline-block;
+		/*object-fit: cover;*/
+	}
+	div.foot {
+		padding: 30px 10px;
+	}
+	td.contact_address {
+		/*color: var(--color_red);*/
+		font-size: 6pt;
+		padding: 0px 5px;
+	}
+
+
+	div.banner {
+		height: 200px;
+	}
+	div.banner div {
+		height: 200px;
+		background-size: cover;
+		background-position: center;
+		/*object-fit: cover;*/
+		/*object-position: 50% 50%;	*/
+	}
+
+	div.homebanner div {
+		height: 200px;
+	}
+
+
+	.front_block {
+		width:90%;
+		height:100px;
+		margin: auto;
+		color: white;
+		padding: 20px;
+	}
+	.front_block.top {
+		font-size: 16pt;
+		/*transform: translate(-50%,-200px); */
+		position: absolute;
+		margin: -100px auto 0px;
+		left: 5%;
+	}
+	.front_block.overlay {
+		/*background-color: var(--color_blue); */
+		background-color: #1159A4;
+		opacity: 0.7;
+	}
+	.front_block-top_icon {
+		width: 50px;
+	}
+	div.menu_icon {
+		width: 40px;
+		height: 40px;
+		background-size: contain;
+		margin-bottom: 5px;
+	}
+	.front_block.bottom {
+		font-size: 8pt;
+		height: 100px;
+		padding: 20px 10px;
+	}
+
+	div.info {
+		width:100%;
+		margin: 20px auto 0;
+		text-align: center;
+		padding: 20px;
+		line-height: 20px;
+	}
+	div.info .title {
+		font-size: 18pt;
+		line-height: 20px;
+	}
+	div.hexa_blue {
+		background-color: #1159A4;
+		padding: 20px 0px;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+
+
+
+
+	div.whyus {
+		height: 250px;
+		display: flex;
+		margin-top: 50px;
+	}
+	div.whyus .block{
+		height: 100%;
+		width: 50%;
+		float: right;
+
+		padding: 10px;
+		/*background: linear-gradient(#1159A4, #0C314B);*/
+
+		opacity: 1;
+		background-repeat: repeat-x;
+		background-size: 100% 100%;
+		/*background: #1159A4;	*/
+		position: relative;
+		color: white;
+		overflow: auto;
+	}
+	div.whyus .block .title{
+		font-size: 12pt;
+		line-height: 20px;
+	}
+	div.whyus .block .content{
+		font-size: 7pt;
+		line-height: 15px;
+	}
+
+	div#modal_detail #modal-barang_img {
+		width: 250px;
+		height: 250px;
+	}
+	div#modal_detail #modal-barang_nama {
+		font-size: 10pt;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	div#modal_detail #modal-barang_ket {
+		font-size: 7pt;
+	}
+
+
+
+	div.about_worker {
+		height: 300px;
+		width: 100%;
+	}
+	div.divider_blue_grad {
+		font-size: 8pt;
+		padding: 15px;
+		line-height: 20px;
+	}
+	div.about_express_delivery {
+		width: 100%;
+		padding: 20px;
+	}
+	div.about_express_delivery .title {
+		font-size: 18pt;
+		margin: 10px 0px;
+		line-height: 20px;
+	}
+	div.about_express_delivery .content {
+		font-size: 8pt;
+		line-height: 15px;
+	}
+
+
+
+	div#product_divider {
+		font-size: 10pt;
+		padding: 10px;
+	}
+	div#products_container {
+		flex: 4;
+		width: 100%;
+	}
+
+
+
+	div.divider_blue {
+		height: 30px;
+		font-size: 10pt;
+		padding: 5px;
+		margin-top: 10px;
+	}
+	div.form {
+		width: 95%;
+		margin: auto;
+	}
+	span.required {
+		font-size: 8pt;
+	}
+
+
+
+	div.product_thumbnail {
+		width: 130px;
+		height: 175px;
+		padding: 5px;
+		margin: 15px;
+		margin-bottom: 15px;
+	}
+	div.product_thumbnail .prod_image {
+		width: 120px;
+		height: 120px;
+	}
+	div.product_thumbnail .prod_title {
+		font-size: 8pt;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	div.product_thumbnail .prod_text {
+		font-size: 6pt;
+	}
+
+
+
+	div.foot_brands {
+		height: 120px;
+		padding: 10px 5px;
+		text-align: center;
+	}
+	div.foot_brands .brands_title {
+		margin-top: 0px;
+		color: white;
+		font-family: Exo2-MediumItalic;
+		font-size: 16pt;
+	}
+	.slick_item {
+		width: 70px;
+		height: 70px;
+		margin: 5px;
+	}
+	img.brand {
+	}
+	img.slickNav{
+		width: 10px;
+	}
+
+
+	div.specificProduct{
+		padding: 10px 5px 5px;
+	}
+	button.hexa_white {
+		padding: 10px 30px;
+		font-size: 12pt;
+	}
+	button.hexa_white2 {
+		width:150px;
+		height:50px;
+		border: none;
+		background: url("../img/hexabutton_white.png") no-repeat center 100% 100%;
+		font-size: 6pt;
+	}
+	div.option_category {
+		width: 120px;
+		font-size: 8pt;
+		padding: 0px 5px;
+	}
+
+
+	div.product_list {
+		max-height: 400px;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+	div.div-404 {
+		padding: 10px;
+		width:100%;
+	}
+	div.div-404 .div-404-title {
+		font-size: 16pt;
+		margin-bottom: 10px;
+	}
+	div.div-404 .div-404-text {
+		font-size: 10pt;
+		line-height: 20px;
+	}
+
+}

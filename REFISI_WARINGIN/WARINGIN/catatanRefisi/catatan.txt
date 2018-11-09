@@ -1,0 +1,14 @@
+lembar 1 : menu for_lease.html
+2.desain drop down sudah saya buat (template link) sama dengan menu for sale
+  ada disetiap menu yang dibuat 
+
+
+lembar 4 : menu for sale / for lease
+9. bagian ini untuk nextpage saya tidak tahu dilinkkan ke mana?
+
+lembar 5 : menu for sale / for lease
+10. bagian ini saya tidak tahu dilinkkan ke mana?
+
+lembar 6 : menu portofolio
+11. bagian ini saya tidak tahu dilinkkan ke mana?
+

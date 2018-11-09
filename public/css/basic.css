@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Exo2-Bold";
+    src: url('../fonts/Exo2-Bold.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-BoldItalic";
+    src: url('../fonts/Exo2-BoldItalic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-ExtraLightItalic";
+    src: url('../fonts/Exo2-ExtraLightItalic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-Medium";
+    src: url('../fonts/Exo2-Medium.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-MediumItalic";
+    src: url('../fonts/Exo2-MediumItalic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-Italic";
+    src: url('../fonts/Exo2-Italic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-SemiBold";
+    src: url('../fonts/Exo2-SemiBold.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-SemiBoldItalic";
+    src: url('../fonts/Exo2-SemiBoldItalic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Exo2-ThinItalic";
+    src: url('../fonts/Exo2-ThinItalic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.ttf') format("truetype");
+}
+
+
+:root {
+	--color_blue : #0972B8;
+	--color_red : #8E1812;	
+	--color_gray : #B3B3B3;		
+}
+* {
+	box-sizing: border-box;	
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+a, a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+div.button {
+	background-color: white;
+	padding: 5px 25px;
+	color: black;
+	border-radius: 25px;
+	font-family: Exo2-SemiBoldItalic;
+	font-size: 10pt;
+}
+
+button.theme {
+	/*background-color: var(--color_blue);*/
+	background-color: #0972B8;
+	border-radius: 25px;
+	border-width: 1px;
+	width:125px;
+	height:40px;
+	position: relative;
+}
+button.hexa_blue {
+	width:150px;
+	height:40px;
+	border: none;
+	padding: 5px 25px;
+	background: url("../img/hexabutton_blue.png") no-repeat center;	
+	background-size: contain;
+	font-family: Montserrat-Regular;
+	font-size: 17pt;	
+	color: white;
+}
+button.hexa_blue:hover { 
+	cursor: pointer;
+	color: #DDDDDD;
+}
+button.hexa_white { 
+	width:275px;
+	height:50px;
+	border: none;
+	padding: 10px 30px;
+	background: url("../img/hexabutton_white.png") no-repeat center;	
+	background-size: contain;
+	font-family: Exo2-Medium;
+	font-size: 12pt;
+	/*color: var(--color_red);*/
+	color: #8E1812;
+	margin: auto;
+
+}
+button.hexa_white:hover { 
+	cursor: default;
+	/*color: #000000;*/
+}
+button.hexa_white2 { 
+	width:300px;
+	height:80px;
+	border: none;
+	padding: 0px 30px;
+	background: url("../img/hexabutton_white.png") no-repeat center;	
+	background-size: contain;
+	font-family: Exo2-SemiBold;
+	font-size: 13pt;
+	/*color: var(--color_blue);*/
+	color: #0972B8;	
+	margin: auto;
+
+}
+button.hexa_white2:hover { 
+	cursor: pointer;
+	color: #000000;
+}
+
+table.basic th, table.basic td {
+	padding: 5px;
+}

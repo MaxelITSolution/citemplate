@@ -49,6 +49,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'frontController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['login'] = 'LoginController';
+$route['logout'] = 'LoginController/logout';
+$route['login/(:any)'] = 'LoginController/$1';
+
+$route['backend'] = 'BackController';
+$route['backend/(:any)'] = 'BackController/$1';
+$route['backend/(:any)/(:any)'] = 'BackController/$1/$2';
+
+$route['en'] = 'FrontController';
+$route['en/(:any)'] = 'FrontController/$1';
+$route['en/(:any)/(:any)'] = 'FrontController/$1/$2';
+$route['en/(:any)/(:any)/(:any)'] = 'FrontController/$1/$2/$3';
+
+//$route['(:any)'] = 'FrontController/search/$1';
+
+$route['article/(:any)'] = 'FrontController/article/$1';
+$route['en/article/(:any)'] = 'FrontController/article/$1';
+
+$route['(:any)'] = 'FrontController/$1';
+$route['(:any)/(:any)'] = 'FrontController/$1/$2';
+$route['(:any)/(:any)/(:any)'] = 'FrontController/$1/$2/$3';
+

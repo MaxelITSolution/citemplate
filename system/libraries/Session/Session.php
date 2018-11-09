@@ -91,6 +91,7 @@ class CI_Session {
 		// Note: BC workaround
 		elseif (config_item('sess_use_database'))
 		{
+			log_message('debug', 'Session: "sess_driver" is empty; using BC fallback to "sess_use_database".');
 			$this->_driver = 'database';
 		}
 
@@ -137,7 +138,7 @@ class CI_Session {
 			unset($_COOKIE[$this->_config['cookie_name']]);
 		}
 
-		session_start();
+		
 
 		// Is session ID auto-regeneration configured? (ignoring ajax requests)
 		if ((empty($_SERVER['HTTP_X_REQUESTED_WITH']) OR strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest')
@@ -316,6 +317,7 @@ class CI_Session {
 		ini_set('session.use_only_cookies', 1);
 		ini_set('session.hash_function', 1);
 		ini_set('session.hash_bits_per_character', 4);
+		session_start();
 	}
 
 	// ------------------------------------------------------------------------
@@ -729,7 +731,7 @@ class CI_Session {
 	 *
 	 * Legacy CI_Session compatibility method
 	 *
-	 * @param	mixed	$data	Session data key(s)
+	 * @param	mixed	$key	Session data key(s)
 	 * @return	void
 	 */
 	public function unset_userdata($key)

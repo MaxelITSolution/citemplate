@@ -1,0 +1,30 @@
+lembar 1 : menu for_lease.html
+1 link share, facebook dan email saya ndak tau mau dilinkkan ke mana?
+2.desain drop down sudah saya buat (template link) sama dengan menu for sale
+  ada disetiap menu yang dibuat 
+
+
+lembar 2 : menu index / homepage
+3. garis putus2 itu data gambar dan sudah saya ganti images/PembatasKuning.png
+4. drop down for share dan for lease sudah dipisah 
+5. efek mouse over sudah dibuat beserta desain kontennya yang muncul jika diklik
+
+
+
+6. tombol more info sudah dibuat dan muncul disemua page dan juga ada efek animasinya
+
+lembar3 : menu about
+7. sudah dibuat isi keluar ketika button diklik (MORE INFO: semua dibiki sama
+   untuk semua halaman)
+8. history diklik ganti konten disebelah kanannya juga sudah didesain
+   (pakai data template): main fade in fade out dan efek animasi juga sudah
+
+lembar 4 : menu for sale / for lease
+9. bagian ini untuk nextpage saya tidak tahu dilinkkan ke mana?
+
+lembar 5 : menu for sale / for lease
+10. bagian ini saya tidak tahu dilinkkan ke mana?
+
+lembar 6 : menu portofolio
+11. bagian ini saya tidak tahu dilinkkan ke mana?
+

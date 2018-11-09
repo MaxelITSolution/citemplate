@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+ font-family:Esphimere;
+ src: url("../fonts/Esphimere.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family:Esphimere;
+ src: url("../fonts/Esphimere.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family:NunitoSans-LightItalic;
+ src: url("../fonts/NunitoSans-LightItalic.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family:NunitoSans-LightItalic;
+ src: url("../fonts/NunitoSans-LightItalic.ttf") /* TTF file for CSS3 browsers */
+}
+
+.font_Esphimere{
+ font-family: Esphimere,'Exo 2', sans-serif;
+ font-weight: normal;
+}
+
+
+.font_NunitoSans{
+ font-family: NunitoSans-LightItalic;
+ font-weight: normal;
+ font-size:10pt;
+ font-style:italic;
+}
+
+
+#form_btnsend{cursor:pointer;}
+
+html,body{
+	margin:0;padding:0;
+	min-height:480px;
+	}
+.headline{
+	font-family: 'Exo 2', sans-serif;
+	}	
+.artikel{
+	font-family: 'Ubuntu', sans-serif;
+	}
+.subtitle{
+	font-family: 'Exo 2', sans-serif;
+	color:#29aae2;
+	margin:0;
+	padding:0;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	}
+	
+a.menu{
+ font-family: 'Exo 2', sans-serif;
+ color:#033066;
+ text-decoration:none;
+ font-weight:bold;
+ font-size:0.8em;
+}
+a.menu span{visibility:hidden;}
+
+a.menu:hover{
+ font-family: 'Exo 2', sans-serif;
+ color:#29AAE2;
+ text-decoration:none;
+ font-weight:bold;
+ font-size:0.8em;
+}
+
+a.menuSelected{
+ font-family: 'Exo 2', sans-serif;
+ color:#29AAE2;
+ text-decoration:none;
+ font-weight:bold;
+ font-size:0.8em;
+	}
+	
+
+.cb{
+color:#FCEE21;background-color:#033066;padding:8px;font-family: 'Exo 2', sans-serif;
+font-size:10pt;
+font-weight:300;
+letter-spacing:1px;
+	}	
+
+
+
+/*penambahan menu kecil yang more info*/
+#more_info{ position:fixed;left:0;z-index:1002;margin-top:320px;width:90px;cursor:pointer;}
+#more_info_phone{
+	position:fixed;left:-125px;margin-left:30px;margin-top:350px;padding-top:5px;padding-bottom:5px;padding-left:60px;padding-right:10px;color:#fcee21;display:none;background-color:#033066;z-index:1001;
+	}
+/**/
+
+
+/*perubahan yang dilakukan display:inline-block;*/
+.submenu_{
+	position:absolute;z-index:1001;
+    padding:10px;margin-top:10px;display:none;
+	
+	}
+.submenu_child_{
+	position:absolute;background-color:#29AAE2;display:block;width:120px;padding-top:10px;margin-bottom:10px;
+	}
+/*	
+#submenu_forsale{cursor:pointer;pointer-events:auto;position:absolute;background-color:#29AAE2;z-index:1001;padding-top:10px;padding-bottom:10px;margin-top:5px;display:block;}	
+
+#submenu_forsale_child{height:60px;width:150px;pointer-events:none;}
+*/
+
+#bg_shapeKuning{position:absolute;
+    background-color:#fcee21;
+    background-image:url(../images/PembatasKuning.png);
+    background-position:top center;
+    background-repeat:no-repeat;
+    z-index:-2;
+    width:100%;}
+	
+/*detail.html*/	
+#bg_shapeKuning2{position:absolute;
+    background-color:#fcee21;
+    background-image:url(../images/PembatasKuning2.png);
+    background-position:top center;
+    background-repeat:no-repeat;
+    z-index:-2;
+    width:100%;}	
+	
+	
+	
+#bg_gambar{
+	position:absolute;z-index:-2;
+    background-color:#113564;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    resize: both;
+	}	
+
+
+#bg_shapeBiru{position:absolute;
+    background-color:#113564;
+    background-image:url(../images/PembatasBiru.png);
+    background-position:top center;
+    background-repeat:no-repeat;
+    z-index:-2;
+    width:100%;}	
+#bg_shapeBiru2{position:absolute;
+    background-color:#113564;
+    background-image:url(../images/PembatasBiru2.png);
+    background-position:top center;
+    background-repeat:no-repeat;
+    z-index:-2;
+    width:100%;}	

@@ -1,0 +1,109 @@
+a {
+  text-decoration: none;
+}
+
+.nodisplay {
+  display: none;
+}
+.absolute{
+  position: absolute;
+}
+
+.nav_logo {
+  width:100%;
+  max-width:200px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:0;
+}
+
+.nav_icon_container {
+  position:relative;
+  display:block;
+  float:right;
+}
+.nav_icon_container.mobile {
+  margin-left:30px;
+}
+
+.nav_icon {
+  float:left;
+  margin-left:5px;
+}
+
+.nav_lang_text {
+  font-size:10pt;
+  margin-top:7px;
+}
+
+.nav_submenu_text {
+  font-size:0.8em;
+  padding-left:20px;
+  text-decoration:none;
+  color:#FFF;
+}
+
+.nav_submenu_pad {
+  clear:both;
+  height:10px;
+}
+.nav_submenu_padleft {
+  margin-left: -75px;
+}
+
+.nav_hr {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.nav_hr_mobile {
+  border:#062A51 solid 0.5px;
+}
+
+.nav_header_mobile {
+  position:fixed;
+  width:100%;
+  top:0;
+  background-color:#FFF;
+  z-index:100;
+}
+
+.nav_menu_container_mobile {
+  padding:15px;
+  background-image:url("../img/BG_Menu.png");
+  background-repeat:repeat;
+}
+
+.nav_menu_mobile {
+  color:#FFF;
+  width:5em;
+  float:left;
+  text-align:center;
+  background-color:#062A51;
+  cursor:pointer;
+  border-radius:2px;
+  margin-top:5px;
+  font-family: 'Exo 2', sans-serif;
+}
+           
+           
+           
+.slideshow { 
+  margin: auto; 
+}
+.slideshow img { 
+  width: 100px; 
+  height: 100px; 
+  padding: 2px; 
+}
+div.responsive img { 
+  width: auto; 
+  height: auto;
+}
+.cycle-pager { 
+  position: static; 
+  margin-top: 5px;
+}
+div.vertical { 
+  width: 100px;
+}
